@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koenig Solutions - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f4f6fb;
+            color: #222;
+        }
+        header {
+            background: #003366;
+            color: #fff;
+            padding: 32px 0 24px 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        nav {
+            margin-top: 18px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ffb300;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 350px;
+            background: linear-gradient(90deg, #003366 60%, #005fa3 100%);
+            color: #fff;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 2.2rem;
+            margin-bottom: 12px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 28px;
+        }
+        .cta-btn {
+            background: #ffb300;
+            color: #003366;
+            border: none;
+            padding: 14px 36px;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: background 0.2s, color 0.2s;
+        }
+        .cta-btn:hover {
+            background: #003366;
+            color: #ffb300;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 32px;
+            margin: 48px 0 32px 0;
+        }
+        .feature {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+            padding: 32px 28px;
+            max-width: 320px;
+            text-align: center;
+        }
+        .feature h3 {
+            color: #003366;
+            margin-bottom: 12px;
+        }
+        .feature p {
+            color: #444;
+        }
+        footer {
+            background: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 18px 0;
+            font-size: 1rem;
+            margin-top: 40px;
+        }
+        @media (max-width: 900px) {
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Koenig Solutions</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Empowering IT Professionals Worldwide</h2>
+        <p>Koenig Solutions is a global leader in IT training, offering world-class certification courses to help you advance your career.</p>
+        <button class="cta-btn">Explore Courses</button>
+    </section>
+    <section class="features">
+        <div class="feature">
+            <h3>Certified Trainers</h3>
+            <p>Learn from industry experts with years of real-world experience and certifications.</p>
+        </div>
+        <div class="feature">
+            <h3>Global Presence</h3>
+            <p>Training centers and online classes available across the globe for your convenience.</p>
+        </div>
+        <div class="feature">
+            <h3>Flexible Learning</h3>
+            <p>Choose from classroom, online, or blended learning options to suit your needs.</p>
+        </div>
+    </section>
+    <footer>
+        &copy; 2026 Koenig Solutions. All rights reserved.
+    </footer>
+</body>
+</html>
